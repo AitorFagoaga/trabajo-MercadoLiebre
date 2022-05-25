@@ -35,6 +35,8 @@ article {
 
 h2 {
     font-size: 24px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 h5 {
     font-size: 16px;
@@ -68,6 +70,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5vh;
+
 }
 .container-search-bar form {
   display: flex;
@@ -120,9 +124,13 @@ div.img img {
 .flex-grow-30 {
   flex-grow: 0.3;
 }
-.flex-grow-50 {
-  flex-grow: 0.5;
+.logo{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    margin-left: 10vh;
 }
+
 .flex-grow-70 {
   flex-grow: 0.7;
 }
@@ -168,10 +176,66 @@ article:hover i.rotate {
 
 /* TABLET */
 @media (min-width: 361px) {
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
     nav {
         display: block;
     }
-
+    .comprar-cuotas{
+      margin-top: 5vh;
+    }
+    .nav-search{
+      background-color: white;
+        border: solid white;
+        width: 50vh;
+        height: 3.5vh;
+        border-radius: 0.5vh ;
+        margin-right: -3vh;
+    }
+    .nav-search-btn{
+      width: 4vh;
+      height: 3.5vh;
+      border-radius: 1vh;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+    }
+    .container-botones{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0vh;
+    }
+    .botones-derechos{
+      display: flex;
+      justify-content: space-around;
+      text-decoration-line: none;
+      margin-left: 2vh;
+    }
+    .botones-izquierdos{
+      display: flex;
+      margin-right: 2vh;
+    }
+    li{
+      margin-left: 1vh;
+    }
+    a{
+      text-decoration: none;
+      color: #551A8B;
+      font-size: 0.9rem;
+    }
+    .icons{
+      color: #1259c3;
+      font-size: 0.9rem;
+    }
+    .icons-footer{
+      color: #1259c3;
+      font-size: 10vh;
+    }
     section {
         flex-wrap: nowrap ;
     }
@@ -216,6 +280,12 @@ article:hover i.rotate {
       align-items: center;
       justify-content: center; 
       margin-top: 2vh;
+    }
+    .section-2{
+      display: flex;
+    }
+    h3{
+      margin-right: 2vh;
     }
     /* REGISTRO */
     .nombre-apellido{
