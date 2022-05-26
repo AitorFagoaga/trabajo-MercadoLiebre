@@ -232,9 +232,23 @@ article:hover i.rotate {
       color: #1259c3;
       font-size: 0.9rem;
     }
+    .container-icon-footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2vh;
+    }
     .icons-footer{
       color: #1259c3;
-      font-size: 10vh;
+      font-size: 5vh;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center; 
     }
     section {
         flex-wrap: nowrap ;
@@ -340,6 +354,7 @@ article:hover i.rotate {
     .b-submit-register{
       margin-left: 22vh;
     }
+    
 }
 
 /* DESKTOP */
