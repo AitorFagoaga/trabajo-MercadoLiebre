@@ -230,6 +230,7 @@ p{
 
 /* LOGIN */
 .form-titulo{
+  margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +285,76 @@ p{
   background-color: #1666dd;
 }
 
+/* REGISTRO */
+.container-register{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email{
+    background-color: white;
+    border: solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: 3.5vh;
+    margin-top: 5vh;
+}
+.user-name{
+  background-color: white;
+    border: solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: 3.5vh;
+    margin-top: 5vh;
+}
+.born-date{
+  background-color: white;
+    border: solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: 3.5vh;
+    margin-top: 5vh;
+}
+.address{
+  background-color: white;
+    border: solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: 3.5vh;
+    margin-top: 5vh;
+}
+.profile{
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 4vh;
+}
+.category{
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 4vh;
+}
+.imgUser{
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 4vh;
+}
+.password{
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 4vh;
+}
+
+.buttons-register{
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+.b-submit-register{   
+  margin-left: 22vh;
+}
 /* animaciones */
+/* REGISTRO */
+
 
 
 /* article:hover .description {
@@ -482,12 +552,12 @@ article:hover i.rotate {
       margin-left: 2vh;
       margin-top: 4vh;
     }
-    .categorie{
+    .category{
       display: flex;
       margin-left: 2vh;
       margin-top: 4vh;
     }
-    .profile-img{
+    .imgUser{
       display: flex;
       margin-left: 2vh;
       margin-top: 4vh;
@@ -497,23 +567,14 @@ article:hover i.rotate {
       margin-left: 2vh;
       margin-top: 4vh;
     }
-    .confirm-password{
-      display: flex;
-      margin-left: 2vh;
-      margin-top: 4vh;
-    }
+    
     .buttons-register{
       display: flex;
       margin-left: 2vh;
       margin-top: 2vh;
     }
-    .b-submit-register{
-      background-color: white;
-      padding: 10px 20px;
-      border: none;
+    .b-submit-register{   
       margin-left: 22vh;
-      font-size: 2.2vh;
-      cursor: pointer;
     }
     
 }
