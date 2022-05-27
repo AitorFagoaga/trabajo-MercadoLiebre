@@ -154,10 +154,6 @@ header {
 div.img img {
     width: 100%;
 }
-.description {
-    
-
-}
 
 
 .container-flex-box {
@@ -230,6 +226,62 @@ div.img img {
 }
 p{
   text-align: center;
+}
+
+/* LOGIN */
+.form-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.sinborde{
+  background-color: white;
+    border: solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: 5vh;
+    margin-top: 5vh;
+}
+.icon{
+  margin-top: 4.5vh;
+  margin-right: 2vh;
+}
+.recordar-contraseña{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 2vh;
+}
+
+
+.olvidaste-contr{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.b-continue{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 2vh;
+}
+.button{
+  background-color: #3483FA;
+  color: white;
+      padding: 10px 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 2.2vh;
+      cursor: pointer;
+}
+.button:hover{
+  background-color: #1666dd;
 }
 
 /* animaciones */
@@ -456,7 +508,12 @@ article:hover i.rotate {
       margin-top: 2vh;
     }
     .b-submit-register{
+      background-color: white;
+      padding: 10px 20px;
+      border: none;
       margin-left: 22vh;
+      font-size: 2.2vh;
+      cursor: pointer;
     }
     
 }

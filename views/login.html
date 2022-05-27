@@ -14,15 +14,34 @@
 <body>
     <header>
         <div class="container-logo-search-bar">
-            <div class="flex-grow-50"><img src="images/logo-mercado-liebre.svg" alt="ml logo"></div>
-            <div class="container-search-bar">
-              
-            </div>
+          <div class="logo"><img src="images/logo-mercado-liebre.svg" alt="ml logo"></div>
+          <div class="container-search-bar">
+            <form  action="https://www.mercadolibre.com.ar/jm/search" method="GET" role="search" style="overflow: inherit; display: inherit;">
+              <input type="text" placeholder="Buscar..." class="nav-search">
+              <button type="submit" class="nav-search-btn" tabindex="3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
           </div>
-    <div>
-    <p> ¿No tienes cuenta? </p><a class="link-header" href="register">Registrate</a>
-    </div>
-</header>
+          <div class="container-comprar-cuotas"><h4><i class='fa-solid fa-hand-holding-dollar'></i class="comprar-cuotas"> Comprá en cuotas y sin tarjeta de crédito</h4></div>
+        </div>
+        <nav class="container-botones">
+            <ul type="none" class="botones-derechos">
+                <li><a href='deals'>Ofertas</a></li>
+                <li><a href='officialStores'>Tiendas Oficiales</a></li>
+                <li><a href='sell'>Vender</a></li>
+                <li><a href='help'>Ayuda</a></li>
+            </ul>
+            <ul type="none" class="botones-izquierdos">
+                <li><a href='register'>Creá tu cuenta </a><i class="fa-regular fa-id-card icons"></i></li>
+                <li><a href='login'>Ingresá </a><i class="fa-solid fa-right-to-bracket icons"></i></li>
+                <li><a href='myshopping'>Mis compras </a><i class="fa-solid fa-basket-shopping icons"></i></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="background-blue color-white border-radius-15 padding-10 fa-solid fa-bars"></i>
+        </div>
+    </header>
 </head>
 <body>
     
@@ -31,15 +50,19 @@
 
 
         <div class="input-contenedor">
-           <i class="fa-solid fa-user icon"></i>
-           <input type="text" name ="email" class="sinborde" placeholder="Correo Electronico" maxlength="15"required/>
+            <div class="conteiner-icons-login">
+                <i class="fa-solid fa-user icon"></i>
+            </div>
+           <input type="text" name ="email" class="sinborde" placeholder="  Correo Electronico" maxlength="15"required/>
 
 
         </div>
 
         <div class="input-contenedor">
-            <i class="fa-solid fa-lock icon"></i>
-            <input type="password" name= "password" class="sinborde" placeholder="Contraseña" maxlength="8" required/>
+            <div>
+                <i class="fa-solid fa-lock icon"></i>
+            </div>
+            <input type="password" name= "password" class="sinborde" placeholder="  Contraseña" maxlength="8" required/>
 
          </div>
 
