@@ -155,8 +155,7 @@ div.img img {
     width: 100%;
 }
 .description {
-    visibility: hidden;
-    transition: transform 5s;
+    
 
 }
 
