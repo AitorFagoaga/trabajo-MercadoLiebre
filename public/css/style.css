@@ -29,12 +29,12 @@ section {
 }
 
 article {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin-bottom: 10px;
     padding: 15px;
     transition: all 2000ms;
 }
 article:hover{
-  width: 120vh;
   border-radius: 4vh;
 }
 
@@ -50,6 +50,7 @@ h4{
 }
 h5 {
     font-size: 16px;
+    margin-top: 2vh;
 }
 h6 {
     font-size: 18px;
@@ -178,7 +179,7 @@ div.img img {
 .flex-grow-1 {
   flex-grow: 1%;
 }
-.flex-grow-2 {
+/* .flex-grow-2 {
   display: none;
 }
 .flex-grow-3 {
@@ -186,7 +187,7 @@ div.img img {
 }
 .flex-grow-4 {
   display: none;
-}
+} */
 
 .container-truck {
   display: flex;
@@ -197,6 +198,34 @@ div.img img {
   padding: 10px;
   border: solid;
   border-width: thin;
+}
+.icons{
+  color: #1259c3;
+  font-size: 0.9rem;
+}
+.container-icon-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.icons-footer{
+  color: #1259c3;
+  font-size: 2em ;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.footer{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-footer{
+  text-align: center;
+}
+p{
+  text-align: center;
 }
 
 /* animaciones */
@@ -307,10 +336,18 @@ article:hover i.rotate {
       align-items: center;
       justify-content: center; 
     }
-    .footer{
+   /* .footer{
       display: flex;
       align-items: center;
       justify-content: center; 
+    }  */
+    .footer{
+      display: inline-block;
+    }
+    .container-title-footer{
+      width: 100vw;
+      margin-left: auto;
+      margin-right: auto;
     }
     section {
         flex-wrap: nowrap ;
@@ -363,6 +400,7 @@ article:hover i.rotate {
     h3{
       margin-right: 2vh;
     }
+    
     /* REGISTRO */
     .nombre-apellido{
       display: flex;
